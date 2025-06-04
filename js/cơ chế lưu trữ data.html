@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head></head>
+Nhập tên: <input id="item" value>
+<br>
+<button onclick="xin_chao()">Ok</button>
+<div id="loi_chao"></div>
+<script>
+    var xin_chao = function () {
+        var ten = document.getElementById("item").value
+        var loi_chao = "xin chào " + ten
+        document.getElementById("loi_chao").innerHTML = loi_chao
+    }
+
+    var thong_bao = function () {
+        document.getElementById("loi_chao").innerHTML = "Hết giờ"
+    }
+    setTimeout(thong_bao, 5000)
+    document.getElementById("loi_chao").innerHTML = "Xin chào"
+    localStorage.ten = "Nguyễn Quang Trường"
+    localStorage.dia_chi = "Nam Định"
+</script>
