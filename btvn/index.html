@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .header {
+            background-color: gray;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            font-size: 36px;
+            font-weight: bold;
+            position: fixed;
+            top: 5px;
+            left: 5px;
+            right: 5px;
+        }
+
+        .main {
+            display: flex;
+            min-height: 400px;
+            background: rgb(161, 161, 161);
+        }
+
+        .sidebar {
+            width: 20%;
+            background-color: rgb(192, 192, 192);
+            padding: 80px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: blue;
+            text-decoration: none;
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+
+        .content {
+            background-color: rgb(214, 212, 212);
+            width: 80%;
+            padding: 50px;
+        }
+
+        .footer {
+            background-color: gray;
+            color: white;
+            position: fixed;
+            text-align: center;
+            padding: 20px;
+            bottom: 5px;
+            left: 5px;
+            right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">Cities</div>
+
+    <div class="main">
+            <div class="sidebar">
+                <a href="#">London</a>
+                <a href="#">Paris</a>
+                <a href="#">Tokyo</a>
+            </div>
+
+            <div class="content">
+                <h3><strong>London</strong></h3>
+                <p>London is the captital city of England. It is the most populous city inthe United Kinhdom, with a
+                    metropolitan area of over 13 million inhabitants. </p>
+                <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going
+                    back to its founding by the Romans, who named it Londinium.</p>
+            </div>
+
+            <div class="footer">Footer</div>
+        </div>
+</body>
+
+</html>
