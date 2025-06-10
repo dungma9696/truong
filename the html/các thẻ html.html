@@ -1,98 +1,112 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Trang đầu tiên</title>
-  </head>
-  <body>
-    <h1>Tiêu đề lớn nhất</h1>
-    <h2>Tiêu đề cấp 2</h2>
-    <h3>Tiêu đề cấp 3</h3>
-    <p>Đây là một đoạn văn bản.</p>
-    <hr>
-    <p>Dòng đầu<br>Dòng tiếp theo</p>
-    <p><b>Chữ đậm</b>, <strong>nhấn mạnh đậm</strong></p>
-    <p><i>Chữ nghiêng</i>, <em>nhấn mạnh nghiêng</em></p>
-    <p><u>Gạch chân</u>, <mark>tô vàng</mark></p>
-    <p><small>Chữ nhỏ</small>, H<sub>2</sub>O, E = mc<sup>2</sup></p>
-    <pre>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Giới thiệu trang web">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Trang web của tôi</title>
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Tiêu đề lớn nhất</h1>
+  <h2>Tiêu đề cấp 2</h2>
+  <h3>Tiêu đề cấp 3</h3>
+  <p>Đây là một đoạn văn bản.</p>
+  <hr>
+  <p>Dòng đầu<br>Dòng tiếp theo</p>
+  <p><b>Chữ đậm</b>, <strong>nhấn mạnh đậm</strong></p>
+  <p><i>Chữ nghiêng</i>, <em>nhấn mạnh nghiêng</em></p>
+  <p><u>Gạch chân</u>, <mark>tô vàng</mark></p>
+  <p><small>Chữ nhỏ</small>, H<sub>2</sub>O, E = mc<sup>2</sup></p>
+  <pre>
       Dòng giữ nguyên
       cả khoảng trắng
     </pre>
-    <code>let a = 5;</code>
-    <blockquote>Trích dẫn dài</blockquote>
-    <q>Trích dẫn ngắn</q>
-    <p><abbr title="HyperText Markup Language">HTML</abbr></p>
-    <h3>Danh sách không thứ tự (ul)</h3>
-    <ul>
+  <code>let a = 5;</code>
+  <blockquote>Trích dẫn dài</blockquote>
+  <q>Trích dẫn ngắn</q>
+  <p><abbr title="HyperText Markup Language">HTML</abbr></p>
+  <h3>Danh sách không thứ tự (ul)</h3>
+  <ul>
     <li>Cà phê</li>
     <li>Trà</li>
     <li>Nước cam</li>
-    </ul>
+  </ul>
 
-    <h3>Danh sách có thứ tự (ol)</h3>
-    <ol>
+  <h3>Danh sách có thứ tự (ol)</h3>
+  <ol>
     <li>Bước 1: Đun nước</li>
     <li>Bước 2: Pha trà</li>
     <li>Bước 3: Thưởng thức</li>
-    </ol>
+  </ol>
 
-    <h3>Danh sách định nghĩa (dl)</h3>
-    <dl>
+  <h3>Danh sách định nghĩa (dl)</h3>
+  <dl>
     <dt>HTML</dt>
     <dd>Ngôn ngữ đánh dấu siêu văn bản</dd>
     <dt>CSS</dt>
     <dd>Ngôn ngữ định kiểu trang web</dd>
-    </dl>
-    <h3>Liên kết</h3>
-    <a href="https://www.google.com" target="_blank">Truy cập Google</a>
+  </dl>
+  <h3>Liên kết</h3>
+  <a href="https://www.google.com" target="_blank">Truy cập Google</a>
 
-    <h3>Hình ảnh</h3>
-    <img src="https://photo.znews.vn/w960/Uploaded/bpivpawv/2025_06_05/Ronaldo3.JPG" alt="Ảnh mẫu">
+  <h3>Hình ảnh</h3>
+  <img src="https://photo.znews.vn/w960/Uploaded/bpivpawv/2025_06_05/Ronaldo3.JPG" alt="Ảnh mẫu">
 
-    <h3>Âm thanh</h3>
-    <audio controls>
+  <h3>Âm thanh</h3>
+  <audio controls>
     <source src="audio.mp3" type="audio/mpeg">
     Trình duyệt của bạn không hỗ trợ audio.
-    </audio>
+  </audio>
 
-    <h3>Video</h3>
-    <video width="320" height="240" controls>
+  <h3>Video</h3>
+  <video width="320" height="240" controls>
     <source src="video.mp4" type="video/mp4">
     Trình duyệt của bạn không hỗ trợ video.
-    </video>
+  </video>
 
-    <h3>iframe (nhúng trang khác)</h3>
-    <iframe src="https://example.com" width="300" height="200"></iframe>
+  <h3>iframe (nhúng trang khác)</h3>
+  <iframe src="https://example.com" width="300" height="200"></iframe>
 
-    <table>
+  <table>
     <caption>Bảng điểm học sinh</caption>
     <thead>
-    <tr>
-      <th>Tên</th>
-      <th>Toán</th>
-      <th>Văn</th>
-    </tr>
+      <tr>
+        <th>Tên</th>
+        <th>Toán</th>
+        <th>Văn</th>
+      </tr>
     </thead>
     <tbody>
-    <tr>
-      <td>An</td>
-      <td>9</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>Bình</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
+      <tr>
+        <td>An</td>
+        <td>9</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>Bình</td>
+        <td>7</td>
+        <td>9</td>
+      </tr>
     </tbody>
     <tfoot>
-    <tr>
-      <td colspan="3">Tổng kết cuối kỳ</td>
-    </tr>
+      <tr>
+        <td colspan="3">Tổng kết cuối kỳ</td>
+      </tr>
     </tfoot>
-    </table>
-    <h3>Biểu mẫu cơ bản</h3>
-    <form action="/submit" method="post">
+  </table>
+  <h3>Biểu mẫu cơ bản</h3>
+  <form action="/submit" method="post">
     <label for="hoten">Họ tên:</label>
     <input type="text" id="hoten" name="hoten">
     <br><br>
@@ -113,9 +127,9 @@
 
     <label for="quocgia">Quốc gia:</label>
     <select id="quocgia" name="quocgia">
-    <option>Việt Nam</option>
-    <option>Mỹ</option>
-    <option>Nhật Bản</option>
+      <option>Việt Nam</option>
+      <option>Mỹ</option>
+      <option>Nhật Bản</option>
     </select>
     <br><br>
 
@@ -125,68 +139,69 @@
 
     <input type="submit" value="Gửi">
     <input type="reset" value="Xóa">
-    </form>
-    <header>
+  </form>
+  <header>
     <h1>Trang Web của tôi</h1>
-    </header>
+  </header>
 
-    <nav>
+  <nav>
     <a href="#">Trang chủ</a> |
     <a href="#">Giới thiệu</a> |
     <a href="#">Liên hệ</a>
-    </nav>
+  </nav>
 
-    <main>
+  <main>
     <section>
-    <h2>Bài viết nổi bật</h2>
-    <article>
-      <h3>Bài viết 1</h3>
-      <p>Nội dung bài viết...</p>
-    </article>
-    <article>
-      <h3>Bài viết 2</h3>
-      <p>Nội dung khác...</p>
-    </article>
+      <h2>Bài viết nổi bật</h2>
+      <article>
+        <h3>Bài viết 1</h3>
+        <p>Nội dung bài viết...</p>
+      </article>
+      <article>
+        <h3>Bài viết 2</h3>
+        <p>Nội dung khác...</p>
+      </article>
     </section>
 
     <aside>
-    <h3>Thông báo</h3>
-    <p>Sắp có sự kiện lớn!</p>
+      <h3>Thông báo</h3>
+      <p>Sắp có sự kiện lớn!</p>
     </aside>
-    </main>
+  </main>
 
-    <footer>
+  <footer>
     <p>Bản quyền © 2025 - Trang web của tôi</p>
-    </footer>
-    <h3>Chi tiết có thể bật/tắt</h3>
-    <details>
+  </footer>
+  <h3>Chi tiết có thể bật/tắt</h3>
+  <details>
     <summary>Bấm để mở</summary>
     <p>Thông tin chi tiết nằm ở đây.</p>
-    </details>
+  </details>
 
-    <h3>Hộp thoại (dialog)</h3>
-    <dialog open>
+  <h3>Hộp thoại (dialog)</h3>
+  <dialog open>
     <p>Đây là một hộp thoại đơn giản.</p>
-    </dialog>
+  </dialog>
 
-    <h3>Thẻ template (chưa hiển thị)</h3>
-    <template id="myTemplate">
+  <h3>Thẻ template (chưa hiển thị)</h3>
+  <template id="myTemplate">
     <p>Đây là nội dung mẫu (template).</p>
-    </template>
-    <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Giới thiệu trang web">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </template>
 
-    <title>Trang web của tôi</title>
+  <ul type="square">
+    <li>Cà phê</li>
+    <li>Trà</li>
+    <li>Nước cam</li>
+  </ul>
 
-    <link rel="stylesheet" href="style.css">
+  <ol type="I">
+    <li>Cà phê</li>
+    <li>Trà</li>
+    <li>Nước cam</li>
+  </ol>
+  
+  
 
-    <style>
-    body { background-color: #f0f0f0; font-family: Arial; }
-    </style>
-    </head>
+</body>
 
-    
-  </body>
 </html>
