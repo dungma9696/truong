@@ -1,0 +1,72 @@
+h1 {
+    color: red;
+    font-size: 30px;
+    background-color: black;
+    text-align: center;
+}
+
+.border {
+    background-color: green;
+    color: yellow;
+    border: 1px solid white;
+    border-radius: 10px;
+    border-bottom: 5px;
+    border-color: red;
+    border-top: 5px;
+    border-width: 15px;
+    border-left: 1px;
+    border-right: 1px;
+    border-style: dashed;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+img {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25%;
+    opacity: 1;
+
+}
+
+img:hover {
+    box-shadow: 0 0 5px red;
+}
+
+.video {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 10px red inset;
+}
+
+.audio {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(245, 245, 245);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    /* box-shadow: 0 0 10px red inset; */
+    background-color: yellow;
+    border-right-style: dashed;
+    border-right-width: 5px ;
+    border-right-color: red;
+
+}
