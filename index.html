@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .parent {
+            border: 2px;
+            background-color: green;
+            width: 500px;
+            height: 500px;
+            position: relative;
+        }
+
+        .element {
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 6;
+
+        }
+
+        .element2 {
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 22;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Absolute</h1>
+    <div class="parent">
+        Parent element
+
+        <div class="element2">Child element222</div>
+        <div class="element">Child element</div>
+    </div>
+</body>
+
+</html>
