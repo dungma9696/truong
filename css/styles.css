@@ -16,7 +16,7 @@ h1 {
     border-width: 15px;
     border-left: 1px;
     border-right: 1px;
-    border-style: dashed;
+    border-style: dotted solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
